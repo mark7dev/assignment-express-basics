@@ -1,0 +1,29 @@
+{
+  "name": "assignment-express-basics",
+  "version": "1.0.0",
+  "description": "express assignment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msandovaldev/assignment-express-basics.git"
+  },
+  "author": "msandoval",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msandovaldev/assignment-express-basics/issues"
+  },
+  "homepage": "https://github.com/msandovaldev/assignment-express-basics#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.0",
+    "nodemon": "^1.18.4"
+  }
+}
